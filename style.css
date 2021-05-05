@@ -1,0 +1,557 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.brand-logo {
+  position: relative;
+  width: 200px;
+  height: 100px;
+}
+
+.collapse svg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 150px;
+  height: 100px;
+}
+
+.collapse img {
+  background: transparent;
+  width: 55px;
+  height: 55px;
+}
+
+.logo-title {
+  position: absolute;
+  top: 0;
+  right: 3%;
+  width: 60%;
+  height: 40%;
+}
+
+.logo-title div {
+  color: #007f5f;
+  margin-right: -10px;
+}
+
+.nav-id {
+  margin-bottom: 12%;
+}
+
+.navbar-nav li {
+  margin: 0px 10px;
+}
+
+.navbar-nav a {
+  color: rgb(36, 35, 35);
+}
+
+.dwn-btn {
+  background-color: #f06d43;
+  border-radius: 20px;
+  color: white;
+  border: 2px solid #6f7875;
+}
+.c-green {
+  color: #007f5f;
+}
+
+.border-btm {
+  padding-bottom: 5px;
+  border-bottom: 3px solid #007f5f;
+}
+
+.waves {
+  position: relative;
+  overflow: hidden;
+}
+
+.waves1,
+.waves2 {
+  position: absolute;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform-box: fill-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.waves1 {
+  animation-fill-mode: forwards;
+  animation-name: wave1-animation;
+}
+
+.waves2 {
+  animation-name: wave2-animation;
+}
+@keyframes wave1-animation {
+  0% {
+    transform: translateX(0) translateZ(0) scaleY(1);
+  }
+  50% {
+    transform: translateX(-25%) translateZ(0) scaleY(0.55);
+  }
+  100% {
+    transform: translateX(-50%) translateZ(0) scaleY(1);
+  }
+}
+
+@keyframes wave2-animation {
+  0% {
+    transform: translateX(-50%) translateZ(0) scaleY(1);
+  }
+  50% {
+    transform: translateX(-25%) translateZ(0) scaleY(0.55);
+  }
+  100% {
+    transform: translateX(0) translateZ(0) scaleY(1);
+  }
+}
+
+.icons {
+  position: relative;
+}
+
+.vl {
+  position: absolute;
+  width: 2px;
+  border-left: 1px solid #0ff5bf;
+  border-right: 1px solid #0ff5bf;
+  height: 95%;
+  top: 20px;
+  left: 50%;
+}
+
+.icon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  fill: #00a67e;
+  width: 3em;
+  height: 3em;
+}
+
+.icon-didani {
+  top: 3.5%;
+}
+
+.cr {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4em;
+  height: 4em;
+  border: 1px solid #0ff5bf;
+  border-radius: 50%;
+}
+
+.cr1 {
+  top: 3%;
+}
+.icon-restaurant {
+  top: 26%;
+}
+
+.cr2 {
+  top: 25%;
+}
+
+.icon-hotel {
+  top: 46%;
+}
+
+.cr3 {
+  top: 45%;
+}
+
+.icon-fly {
+  top: 66%;
+}
+
+.cr4 {
+  top: 65%;
+}
+
+.icon-nearme {
+  top: 89%;
+}
+
+.cr5 {
+  top: 88%;
+}
+
+.download-box {
+  height: 75%;
+}
+.download-box .row-id {
+  height: 33%;
+}
+
+.row-id {
+  display: flex;
+}
+
+.download-icon {
+  width: 75%;
+  height: 75%;
+}
+
+.input-box {
+  min-height: 40px;
+  background: #fafafa;
+  border-radius: 20px;
+}
+
+.input-box input {
+  width: 70%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.email {
+  width: 50%;
+}
+
+.email-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.download-app {
+  height: 100%;
+  width: 50%;
+  flex-direction: row;
+}
+
+.download-app button {
+  order: -1;
+}
+.email button {
+  order: -1;
+}
+
+.download-options button {
+  width: 130px;
+  border: none;
+  outline: none;
+  padding: 8px 0px;
+  border-radius: 25px;
+  background-color: #00e7b3;
+  color: white;
+  height: 50px;
+}
+
+.download-options {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-fluid2 {
+  height: 100%;
+}
+
+.bazar-icon {
+  width: 25px;
+  height: 25px;
+}
+
+button svg {
+  fill: white;
+  width: 20px;
+  height: 20px;
+  margin-left: 2px;
+}
+
+.amadegi-safar {
+  position: relative;
+  height: 50%;
+}
+.amadegi-safar svg {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  top: 0;
+  left: 0;
+}
+
+.amadegi-safar h4 {
+  position: absolute;
+  color: white;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  top: 25%;
+}
+
+.amadegi-des {
+  position: absolute;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10% 0;
+  left: 0;
+  right: 0;
+  top: 35%;
+  color: white;
+}
+
+.amadegi-safar button {
+  position: absolute;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  left: 0;
+  right: 0;
+  top: 62%;
+}
+
+.amadegi-safar,
+.download-justro {
+  height: 50%;
+}
+
+.icon-container {
+  height: 100%;
+}
+
+.idea-h {
+}
+
+.images img {
+  display: inline;
+  height: 300px;
+}
+
+.images {
+  overflow-x: auto;
+}
+
+.container-fluid3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  height: 200px;
+  background: #f06d43;
+}
+
+.footer img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.right-reserved img {
+  width: 30px;
+  height: 30px;
+}
+.right-reserved {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.links {
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons svg {
+  height: 20px;
+  width: 20px;
+  margin: 0px 10px;
+}
+.social-icons {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
+.second-nav {
+  display: none;
+}
+@media only screen and (min-width: 912px) {
+  .col-lg-5 {
+    width: 40%;
+    height: 100%;
+  }
+
+  .vl {
+    display: none;
+  }
+
+  .col-lg-2 {
+    width: 20%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .col-sm-12 {
+    height: 40%;
+    width: 100%;
+  }
+
+  .cr1 {
+    right: 3%;
+  }
+  .icon-restaurant {
+    right: 26%;
+  }
+
+  .cr2 {
+    right: 25%;
+  }
+
+  .icon-hotel {
+    right: 46%;
+  }
+
+  .cr3 {
+    right: 45%;
+  }
+
+  .icon-fly {
+    right: 66%;
+  }
+
+  .cr4 {
+    right: 65%;
+  }
+
+  .icon-nearme {
+    right: 89%;
+  }
+
+  .cr5 {
+    right: 88%;
+  }
+
+  .col-sm1 {
+    width: 100%;
+    height: 20%;
+    flex-direction: row !important;
+    display: flex;
+  }
+  .container-fluid2 {
+    min-height: 100%;
+  }
+
+  .dwntop {
+    display: none;
+  }
+
+  .input-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .download-app {
+    height: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .email {
+    height: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .download-app button {
+    order: 1;
+  }
+  .email button {
+    order: 1;
+  }
+
+  .download-justro {
+    height: 65%;
+  }
+
+  .amadegi-safar {
+    height: 35%;
+    background: chartreuse;
+  }
+
+  .download-box {
+    height: 100%;
+    width: 75%;
+  }
+
+  .download-icon {
+    width: 50%;
+    height: 50%;
+  }
+
+  .icon-container {
+    height: 50%;
+  }
+
+  button svg {
+    fill: white;
+    width: 15px;
+    height: 15px;
+    margin-left: 2px;
+  }
+  .download-options button {
+    width: 140px;
+  }
+
+  .download-box {
+    width: 100%;
+  }
+  .amadegi-safar img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .amadegi-safar h4 {
+    top: 10%;
+  }
+  .amadegi-safar button {
+    top: 90%;
+  }
+
+  .row-id {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+}
